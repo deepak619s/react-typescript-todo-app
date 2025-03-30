@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React + TypeScript
 
-Currently, two official plugins are available:
+"Smart To-Do: React + TypeScript"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- ⚛️ Built with React & TypeScript – Ensuring type safety and scalability.
+- 📋 Simple & Intuitive UI – Minimalist design for seamless task management.
+- ✅ CRUD Operations – Create, Read, Update, and Delete tasks effortlessly.
+- ☁️ Local Storage – Persist tasks locally.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Tech Stack
+
+**Client:**  Html, Css, TypeScript, React
+
+
+
+## Badges
+
+![HTML](https://img.shields.io/badge/HTML-5-blue)  
+![CSS](https://img.shields.io/badge/CSS-3-blue)  
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)  
+![React](https://img.shields.io/badge/React-19-blue)  
+![Git](https://img.shields.io/badge/Git-Version--Control-red) 
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)
+
+
+
+## Documentation
+
+- [TypeScript Official Documentation](https://www.typescriptlang.org/docs/)  
+- [React Official Documentation](https://react.dev/)  
+- [MDN Web Docs (HTML, CSS, JavaScript)](https://developer.mozilla.org/en-US/)  
+- [React Hooks Guide](https://react.dev/reference/react)  
+- [Vite Documentation](https://vitejs.dev/guide/)  
+- [React Router Documentation](https://reactrouter.com/en/main)  
+- [TypeScript with React Guide](https://react-typescript-cheatsheet.netlify.app/)  
+
+ 
+
+## Link 
+
+https://react-typescript-todo-app-phi.vercel.app/
